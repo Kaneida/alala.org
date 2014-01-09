@@ -1,0 +1,709 @@
+* {
+	margin: 0;
+}
+html, body {
+	position: relative; height: 100%;
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	margin: 0; padding: 0; border: 0; font-size: 100%;
+	background: #FFFFFF; color: #606060; font-family: avant garde, century gothic, verdana, tahoma, arial, helvetica;
+}
+
+#container {
+	min-height: 100%; height: auto !important; height: 100%;
+	position: relative;
+	margin-left: auto; margin-right: auto;
+	margin: 0 auto -4em auto; padding: 0 5em 0 5em;
+	min-width: 50em;max-width: 80em; 
+	font-size: 0.9em; line-height: 1.25em;
+}
+
+strong {
+	font-weight: bold;
+	color: #000000;
+}
+
+#main {
+	position: relative; width: 100%;
+	margin: 0 0 0 0; padding: 0;
+}
+
+#content {
+	position: relative;
+	max-width: 80em;
+	height: auto !important;
+	min-height: 100%;
+	margin: 0;
+	padding-top: 2em;
+	padding-right: 0;
+	padding-bottom: 3em;
+	padding-left: 0;
+}
+
+#contentInner {
+	float: left; width: 100%;
+}
+
+#intro {
+	position: relative;  width: 100%;
+}
+
+#introText {
+	text-align: center; max-width: 40em;
+}
+#introText h3 {
+	text-align: center;
+	max-width: 40em;
+	font-size: 11px;
+	line-height: normal;
+}
+#introText h2 {
+	text-align: center;
+	max-width: 40em;
+	font-size: 11px;
+	line-height: normal;
+}
+
+#backToTop {
+	float: right; margin-bottom: 3em; padding-left: 1em; padding-right: 1em;
+}
+
+.logo {
+	margin: -1em auto 0 auto; text-align: center;
+}
+
+.captionedImgHolder {
+	display: inline-block;
+}
+
+.imgCaption {
+	width: 270px; font-size: 0.8em; text-align: left; line-height: 1.2em; height:7em; float:left; clear:both;
+}
+
+#recuadro h3 a:link {
+	white-space: nowrap; text-decoration: none; 
+	letter-spacing: 0.1em; background-color: #ffcce6;color: #505050;
+	padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+	border: none; border-width: 0; 
+}
+a:visited {
+	white-space: nowrap; text-decoration: none; 
+	letter-spacing: 0.1em; background-color: #ffcce6;color: #505050;
+	padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+	border: none; border-width: 0; 
+}
+
+a:active {
+	border: none;
+	border-width: 0;
+}
+#recuadro h3 a:hover {
+	color: #FFFFFF; background: #e00070;
+	border: none; border-width: 0;
+}
+
+dl {
+	margin: 0; padding: 0;
+}
+dt {
+	display: inline; margin: 0; padding: 0;
+}
+dd {
+	display: inline; margin: 0; padding: 0;
+}
+
+h1 {
+	color: #ff0080; text-transform: uppercase; font-size: 7em; padding-left: 2.35em; font-weight: 900; letter-spacing: 0.2em; white-space: nowrap;
+	position: relative; height: 0.7em; top: -0.5em;
+}
+h2, h3 {
+	display: inline;
+	border: 0 !important;
+}
+h2 {
+	font-size: 1.1em;
+	color: #000000;
+	margin-bottom: 1em;
+	border: 0 !important;
+}
+h3 {
+	font-size: 1em;
+}
+h4 {
+	font-size: 0.7em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: right;
+	text-decoration: none;
+	color: #000;
+}
+h1.clearFloats,
+h2.clearFloats,
+h3.clearFloats {
+	clear: both; display: block;
+}
+
+
+form {
+	margin: 0; padding: 0;
+}
+
+/*	title*/
+
+a#titleBar:link,
+a#titleBar:visited,
+a#titleBar:hover,
+a#titleBar:active {
+	margin: 0em auto 0 auto; padding: 0 0 0 0; 
+	/* overflow: hidden;  */position: relative; 
+	text-indent: -999em;
+	background: none;
+	background-image: url(images/ALALA_title.jpg); display: block; width: 555px; height: 96px; background-position: 0 0; background-repeat: no-repeat;
+}
+a#titleBar:hover {
+	background-position: 0 -96px; 
+}
+
+/* .emailLink {
+	margin: 0; padding: 0;
+	padding-right: 5em; padding-top: 1.25em; margin: 0; margin-top: 0em; margin-bottom: 0.5em;
+	text-align: left;
+} */
+
+.pinkText {
+	color: #ff0080;
+}
+
+blockquote {
+	text-align: center; font-size: 1.05em;
+	font-weight: normal; margin: 2em 0 2em 0; font-style: italic;
+}
+
+
+img.teamPic,
+img.friendLogo {
+	float: left; margin: 0 2em 0 0;
+}
+.teamMember {
+	float: left; margin-bottom: 4em; clear: both; width: 100%;
+}
+.teamInfo {
+	float: left; width: 50%; padding-top: 1em; margin-bottom: 2em;
+}
+.friendContainer {
+	display: block;
+	clear: both; margin: 0 0 3em 0;
+}
+
+img.eventPic {
+	float: left; margin: 2em 2em 2em 0; display: inline;
+}
+img.teamPic,
+img.eventPic,
+a.friendLogo img {
+	float: left; margin: 0 2em 1em 0; display: inline;
+	padding: 1em; border: 1px solid #f7daf1;
+}
+a.friendLogo {
+	background: none;
+}
+hr {
+	color: #f7daf1;
+	background-color: #f7daf1;
+	height: 1px; border: 0; width: 50%;
+	display: block; float: left; clear: both;
+	margin: 3em auto 3em 0;
+}
+hr.team {
+	margin: 0 auto 5em 0;
+}
+.event {
+	float: left; margin:1em 0 3em 0; display: block; width: 100%; clear: both;
+}
+.event h3 {
+	margin: 0 0 0.5em 0; display: block; line-height: 1em;
+}
+
+#footer, #push {
+	top: 0; position: relative;
+	padding-left: 5em; padding-right: 3em; max-width: 160em;
+	height: 3em; clear: both;
+}
+#footer {
+	margin-left: auto; margin-right: auto;
+	padding-left: 5em; padding-right: 5em;
+	min-width: 50em;max-width: 80em;
+	text-align:center;
+}
+#footer p {
+	font-size: 0.75em;margin-top:0.2em;
+}
+.separator{display:inline-block;margin:0 0.5em 0 0.5em;color:#dedede}
+
+.halfWidthColumn,
+.thirdWidthColumn,
+.twoThirdsWidthColumn {
+	float: left;
+	position: relative;
+	width: 45%;
+	top: 50;
+	padding-top: 0;
+	padding-right: 5%;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.firsthalfWidthColumn {
+	float: left;
+	position: relative;
+	padding: 0 0 0 5%;
+	width: 45%;
+	top: 50;
+	text-align:center;
+}
+.secondhalfWidthColumn {
+	float: left;
+	position: relative;
+	padding: 0 5% 0 0;
+	width: 45%;
+	top: 50;
+	text-align:center;
+}
+.WidthColumn {
+	float: left;
+	position: relative;
+	width: 90%;
+	top: 50;
+	padding: 0 5% 0 5%;
+	text-align: center;
+	text-decoration: none;
+}
+.firstHalfWidthColumnCentred {
+	float: left;
+	position: relative;
+	padding: 0 5% 0 0;
+	width: 45%;
+	top: 50;
+	text-align: left;
+}
+.secondHalfWidthColumnCentred {
+	float: left;
+	position: relative;
+	pading: 0 0 0 0;
+	width: 412px;
+	top: 50;
+	text-align: center;
+}
+
+.thirdWidthColumn {
+	width: 30%;
+}
+.twoThirdsWidthColumn {
+	width: 60%;
+}
+
+ul.navItem {
+	display: block; padding: 0; margin: 1em 0 0 2em;;
+}
+li.navItem {
+	list-style-image: url(images/bullet.jpg); margin: 0 0 0.75em 0; padding: 0;
+}
+
+ul#navContainer {
+	display: block; width: 100%; margin: 0.5em 0 2em 0; padding: 1.5em 0 0 0; position: relative; height: 4em;
+	text-align: center;
+}
+li.navItem,
+li.navItemSelected {
+	font-size:0.9em;list-style-type: none; display: inline-block; width: 16%; text-align: center; /* float: left; */ position: relative; background-image: none;
+}
+li.navItemWide {
+	width: 50%;
+}
+.navItem a {
+	min-width: 11em; display: inline-block;
+	white-space: nowrap; text-decoration: none; 
+	letter-spacing: 0.1em; background-color: #ff0080;font-weight: 900; color: #F2F2F2;
+	padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+	border: none; border-width: 0;}
+.navItemSelected a {
+	min-width: 11em; display: inline-block;
+	white-space: nowrap; text-decoration: none; 
+	letter-spacing: 0.1em; background-color: #ff0080;font-weight: 900; color: #F2F2F2;
+	padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+	border: none; border-width: 0;
+}
+.navItem a:hover {
+	white-space: nowrap; text-decoration: none; 
+	letter-spacing: 0.1em; color: #FFFFFF; background: #e00070;
+	padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+	border: none; border-width: 0;
+}
+.navItemSelected a:link, 
+.navItemSelected a:visited,
+.navItemSelected a:hover,
+.navItemSelected a:active {
+		white-space: nowrap; text-decoration: none; 
+	letter-spacing: 0.1em; background-color: #c538a8; color: #fff;
+	padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+	border: none; border-width: 0;
+}
+.navItemWide a {
+	min-width: 20em; 
+}
+.teamInfoWide {
+	width: inherit;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block; height: 0; clear: both; visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+
+/* HIDES FROM IE-MAC \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* END HIDE FROM IE-MAC */
+
+
+#menu {
+	text-align: center;
+	font-size: 0.8em;
+	width: 412px;
+	height: 436px;
+	background-image: url(images/tree_body_cuore4_transparente6.png);
+	background-color: #fff;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: -3px;
+	border-radius: 20px;
+	background-repeat: no-repeat;
+	float: left;
+}
+#menu ul { list-style-type: none;}
+
+#menu1 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_izquierda.png);
+	background-repeat: no-repeat;
+	left: -1px;
+	top: 133px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+	padding-left: 4px;
+}
+#menu2 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_izquierda.png);
+	background-repeat: no-repeat;
+	left: 8px;
+	top: 227px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+}
+#menu3 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_izquierda.png);
+	background-repeat: no-repeat;
+	left: 82px;
+	top: 130px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+}
+#menu4 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_izquierda.png);
+	background-repeat: no-repeat;
+	left: 54px;
+	top: 270px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+	padding-left: 4px;
+}
+#menu5 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_derecha.png);
+	background-repeat: no-repeat;
+	left: 206px;
+	top: 105px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+}
+#menu6 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_izquierda.png);
+	background-repeat: no-repeat;
+	left: 170px;
+	top: 225px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+}
+#menu7 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_derecha.png);
+	background-repeat: no-repeat;
+	left: 128px;
+	top: 274px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+}
+#menu8 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_derecha.png);
+	background-repeat: no-repeat;
+	left: 232px;
+	top: 210px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+}
+#menu9 ul li.nivel1 {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url(images/manzana_derecha.png);
+	background-repeat: no-repeat;
+	left: 205px;
+	top: 289px;
+	position: absolute;
+	margin-left: 60px;
+	outline: 0;
+}
+#menu ul li {
+	float: left;
+	display: block;
+	color: #C6160F;
+	position: relative;
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	line-height: 14px;
+}
+
+#menu ul li a textApple
+{
+	display: block;
+	color: #C6160F;
+	position: relative;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+#menu ul li span {
+	display: block;
+	color: #000;
+	padding: 6px;
+	position: relative;
+	top: 15px;
+	font-family: fantasy;
+}
+a:active {position: relative;
+}
+#menu ul li a:active {
+color: #000;
+position: relative;
+}
+#menu ul li span.nivel1 {
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+#menu ul li:hover span.nivel1 {cursor: pointer;
+}
+#menu ul li ul {display: none;
+}
+#menu ul li a:hover ul {
+	display: block;
+	position: absolute;
+	width: 200px;
+	border-top: none;
+}#menu ul li a:active ul {
+	display: block;
+	position: absolute;
+	width: 200px;
+	border-top: none;
+}
+#menu ul li a:hover a:link ul {visibility: hidden;
+}
+#menu ul li a:active a:hover ul  {visibility: visible;
+}
+#menu ul li ul li a {
+	background: none !important;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: none;
+	background-repeat: no-repeat;
+	text-align: right;
+	padding-left: 30px;
+	padding-right: 25px;
+}
+#menu ul li ul li a:hover textApple {
+	display: block;
+	border-bottom: none;
+	color: #000;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#menu ul li ul li a:active textApple {
+	display: block;
+	color: #000;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#menu ul li ul li a:visited textApple{
+	display: none;
+}
+#menu1 ul li:focus ul, #menu1 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 221px;
+	left: -111px;
+}
+#menu1 ul li:focus span, #menu1 ul li:active span {
+	color: #FFF;
+}
+#menu2 ul li:focus ul, #menu2 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 127px;
+	left: -120px;
+}
+#menu2 ul li:focus span, #menu2 ul li:active span {
+	color: #FFF;
+}
+#menu3 ul li:focus ul, #menu3 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 224px;
+	left: -194px;
+}
+#menu3 ul li:focus span, #menu3 ul li:active span {
+	color: #FFF;
+}
+#menu4 ul li:focus ul, #menu4 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 84px;
+	left: -166px;
+}
+#menu4 ul li:focus span, #menu4 ul li:active span {
+	color: #FFF;
+}
+#menu5 ul li:focus ul, #menu5 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 249px;
+	left: -318px;
+}
+#menu5 ul li:focus span, #menu5 ul li:active span {
+	color: #FFF;
+}
+#menu6 ul li:focus ul, #menu6 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 129px;
+	left: -282px;
+}
+#menu6 ul li:focus span, #menu6 ul li:active span {
+	color: #FFF;
+}
+#menu7 ul li:focus ul, #menu7 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 80px;
+	left: -240px;
+}
+#menu7 ul li:focus span, #menu7 ul li:active span {
+	color: #FFF;
+}
+#menu8 ul li:focus ul, #menu8 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 144px;
+	left: -344px;
+}
+#menu8 ul li:focus span, #menu8 ul li:active span {
+	color: #FFF;
+}
+#menu9 ul li:focus ul, #menu9 ul li:active ul {
+	display: block;
+	position: absolute;
+	width: 400px;
+	border-top: none;
+	top: 65px;
+	left: -317px;
+}
+#menu9 ul li:focus span, #menu9 ul li:active span {
+	background: none;
+	color: #FFF;
+}
+.showme{ 
+display: none;
+float: right;
+}
+.showhim:hover .showme{
+	display : block;
+	float: right;
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+ul.uno {left: -0px;}
+
+textApple{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	vertical-align: middle;
+}
