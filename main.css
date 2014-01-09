@@ -276,10 +276,10 @@ li.navItemWide {
 	-moz-box-shadow:inset 0px 0px 0px -2px #ffffff;
 	-webkit-box-shadow:inset 0px 0px 0px -2px #ffffff;
 	box-shadow:inset 0px 0px 0px -2px #ffffff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9024a3), color-stop(1, #4c0e69) );
-	background:-moz-linear-gradient( center top, #9024a3 5%, #4c0e69 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9024a3', endColorstr='#4c0e69');
-	background-color:#9024a3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e796f5), color-stop(1, #876e94) );
+	background:-moz-linear-gradient( center top, #e796f5 5%, #876e94 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e796f5', endColorstr='#876e94');
+	background-color:#e796f5;
 	-webkit-border-top-left-radius:37px;
 	-moz-border-radius-topleft:37px;
 	border-top-left-radius:37px;
@@ -295,9 +295,9 @@ li.navItemWide {
 	text-indent:0px;
 	border:1px solid #280847;
 	display:inline-block;
-	color:#ffffff;
+	color:#000000;
 	font-family:Arial;
-	font-size:15px;
+	font-size:14px;
 	font-weight:bold;
 	font-style:normal;
 	height:50px;
@@ -305,13 +305,13 @@ li.navItemWide {
 	width:200px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:1px 1px 0px #000000;
+	text-shadow:1px 1px 0px #ffffff;
 }
 .event_button:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c0e69), color-stop(1, #9024a3) );
-	background:-moz-linear-gradient( center top, #4c0e69 5%, #9024a3 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c0e69', endColorstr='#9024a3');
-	background-color:#4c0e69;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #876e94), color-stop(1, #e796f5) );
+	background:-moz-linear-gradient( center top, #876e94 5%, #e796f5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#876e94', endColorstr='#e796f5');
+	background-color:#876e94;
 }.event_button:active {
 	position:relative;
 	top:1px;
