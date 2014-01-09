@@ -32,7 +32,89 @@ strong {
 
 #content {
 	position: relative; max-width: 80em; height: auto !important; min-height: 100%;
-	padding: 2em 0 3em 0; margin: 0; 
+	padding: 2em 0 3em 0; margin: 0; 43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+        position: relative;  width: 100%;
+}
+#introText {
+        text-align: center; max-width: 40em;
+}
+#backToTop {
+        float: right; margin-bottom: 3em; padding-left: 1em; padding-right: 1em;
+}
+.logo {
+        margin: -1em auto 0 auto; text-align: center;
+}
+.captionedImgHolder {
+        display: inline-block;
+}
+.imgCaption {
+        width: 270px; font-size: 0.8em; text-align: left; line-height: 1.2em; height:7em; float:left; clear:both;
+}
+a:link, a:visited {
+        white-space: nowrap; text-decoration: none; 
+        letter-spacing: 0.1em; background-color: #ffcce6;color: #505050;
+        padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+        border: none; border-width: 0; 
+}
+a:active, a:hover {
+        color: #FFFFFF; background: #e00070;
+        border: none; border-width: 0;
+}
+dl {
+        margin: 0; padding: 0;
+}
+dt {
+        display: inline; margin: 0; padding: 0;
+}
+dd {
+        display: inline; margin: 0; padding: 0;
+}
+Commit summary: Extended description: (optional)
+Kaneida Kaneida@users.noreply.github.com
+
 }
 
 #contentInner {
@@ -302,7 +384,7 @@ li.navItemWide {
 	font-style:normal;
 	height:26px;
 	line-height:26px;
-	width:200px;
+	width:260px;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 1px #5454cc;
