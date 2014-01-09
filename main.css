@@ -1,0 +1,274 @@
+* {
+	margin: 0;
+}
+html, body {
+	position: relative; height: 100%;
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	margin: 0; padding: 0; border: 0; font-size: 100%;
+	background: #FFFFFF; color: #606060; font-family: avant garde, century gothic, verdana, tahoma, arial, helvetica;
+}
+
+#container {
+	min-height: 100%; height: auto !important; height: 100%;
+	position: relative;
+	margin-left: auto; margin-right: auto;
+	margin: 0 auto -4em auto; padding: 0 5em 0 5em;
+	min-width: 50em;max-width: 80em; 
+	font-size: 0.9em; line-height: 1.25em;
+}
+
+strong {
+	font-weight: bold;
+	color: #000000;
+}
+
+#main {
+	position: relative; width: 100%;
+	margin: 0 0 0 0; padding: 0;
+}
+
+#content {
+	position: relative; max-width: 80em; height: auto !important; min-height: 100%;
+	padding: 2em 0 3em 0; margin: 0; 
+}
+
+#contentInner {
+	float: left; width: 100%;
+}
+
+#intro {
+	position: relative;  width: 100%;
+}
+
+#introText {
+	text-align: center; max-width: 40em;
+}
+
+#backToTop {
+	float: right; margin-bottom: 3em; padding-left: 1em; padding-right: 1em;
+}
+
+.logo {
+	margin: -1em auto 0 auto; text-align: center;
+}
+
+.captionedImgHolder {
+	display: inline-block;
+}
+
+.imgCaption {
+	width: 270px; font-size: 0.8em; text-align: left; line-height: 1.2em; height:7em; float:left; clear:both;
+}
+
+a:link, a:visited {
+	white-space: nowrap; text-decoration: none; 
+	letter-spacing: 0.1em; background-color: #ffcce6;color: #505050;
+	padding: 0.1em 0.15em 0.2em 0.15em; margin: 0 -0.25em 0 -0.25em;
+	border: none; border-width: 0; 
+}
+
+a:active, a:hover {
+	color: #FFFFFF; background: #e00070;
+	border: none; border-width: 0;
+}
+
+dl {
+	margin: 0; padding: 0;
+}
+dt {
+	display: inline; margin: 0; padding: 0;
+}
+dd {
+	display: inline; margin: 0; padding: 0;
+}
+
+h1 {
+	color: #ff0080; text-transform: uppercase; font-size: 7em; padding-left: 2.35em; font-weight: 900; letter-spacing: 0.2em; white-space: nowrap;
+	position: relative; height: 0.7em; top: -0.5em;
+}
+h2, h3 {
+	display: inline;
+}
+h2 {
+	font-size: 1.1em;
+	color: #000000; margin-bottom: 1em;
+}
+h3 {
+	font-size: 1em;
+}
+h1.clearFloats,
+h2.clearFloats,
+h3.clearFloats {
+	clear: both; display: block;
+}
+
+
+form {
+	margin: 0; padding: 0;
+}
+
+/*	title*/
+
+a#titleBar:link,
+a#titleBar:visited,
+a#titleBar:hover,
+a#titleBar:active {
+	margin: 0em auto 0 auto; padding: 0 0 0 0; 
+	/* overflow: hidden;  */position: relative; 
+	text-indent: -999em;
+	background: none;
+	background-image: url(images/ALALA_title.jpg); display: block; width: 555px; height: 96px; background-position: 0 0; background-repeat: no-repeat;
+}
+a#titleBar:hover {
+	background-position: 0 -96px; 
+}
+
+/* .emailLink {
+	margin: 0; padding: 0;
+	padding-right: 5em; padding-top: 1.25em; margin: 0; margin-top: 0em; margin-bottom: 0.5em;
+	text-align: left;
+} */
+
+.pinkText {
+	color: #ff0080;
+}
+
+blockquote {
+	text-align: center; font-size: 1.05em;
+	font-weight: normal; margin: 2em 0 2em 0; font-style: italic;
+}
+
+img.teamPic,
+img.friendLogo {
+	float: left; margin: 0 2em 0 0;
+}
+.teamMember {
+	float: left; margin-bottom: 4em; clear: both; width: 100%;
+}
+.teamInfo {
+	float: left; width: 50%; padding-top: 1em; margin-bottom: 2em;
+}
+.friendContainer {
+	display: block;
+	clear: both; margin: 0 0 3em 0;
+}
+
+img.eventPic {
+	float: left; margin: 2em 2em 2em 0; display: inline;
+}
+img.teamPic,
+img.eventPic,
+a.friendLogo img {
+	float: left; margin: 0 2em 1em 0; display: inline;
+	padding: 1em; border: 1px solid #f7daf1;
+}
+a.friendLogo {
+	background: none;
+}
+hr {
+	color: #f7daf1;
+	background-color: #f7daf1;
+	height: 1px; border: 0; width: 50%;
+	display: block; float: left; clear: both;
+	margin: 3em auto 3em 0;
+}
+hr.team {
+	margin: 0 auto 5em 0;
+}
+.event {
+	float: left; margin:1em 0 3em 0; display: block; width: 100%; clear: both;
+}
+.event h3 {
+	margin: 0 0 0.5em 0; display: block; line-height: 1em;
+}
+
+#footer, #push {
+	top: 0; position: relative;
+	padding-left: 5em; padding-right: 3em; max-width: 160em;
+	height: 3em; clear: both;
+}
+#footer {
+	margin-left: auto; margin-right: auto;
+	padding-left: 5em; padding-right: 5em;
+	min-width: 50em;max-width: 80em;
+	text-align:center;
+}
+#footer p {
+	font-size: 0.75em;margin-top:0.2em;
+}
+.separator{display:inline-block;margin:0 0.5em 0 0.5em;color:#dedede}
+
+.halfWidthColumnCentred,
+.halfWidthColumn,
+.thirdWidthColumn,
+.twoThirdsWidthColumn {
+	float: left; position: relative;
+	padding: 0 5% 0 0; width: 45%;
+}
+.halfWidthColumnCentred {
+	text-align: center;
+}
+.thirdWidthColumn {
+	width: 30%;
+}
+.twoThirdsWidthColumn {
+	width: 60%;
+}
+
+ul {
+	display: block; padding: 0; margin: 1em 0 0 2em;;
+}
+li {
+	list-style-image: url(images/bullet.jpg); margin: 0 0 0.75em 0; padding: 0;
+}
+
+ul#navContainer {
+	display: block; width: 100%; margin: 0.5em 0 2em 0; padding: 1.5em 0 0 0; position: relative; height: 4em;
+	text-align: center;
+}
+li.navItem,
+li.navItemSelected {
+	font-size:0.9em;list-style-type: none; display: inline-block; width: 16%; text-align: center; /* float: left; */ position: relative; background-image: none;
+}
+li.navItemWide {
+	width: 50%;
+}
+.navItem a,
+.navItemSelected a {
+	min-width: 11em; display: inline-block;
+  background-color: #ff0080;font-weight: 900; color: #F2F2F2;
+}
+.navItem a:hover {
+  color: #FFFFFF; background: #e00070;
+}
+.navItemSelected a:link, 
+.navItemSelected a:visited,
+.navItemSelected a:hover,
+.navItemSelected a:active {
+	background-color: #c538a8; color: #fff;
+}
+.navItemWide a {
+	min-width: 20em; 
+}
+.teamInfoWide {
+	width: inherit;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block; height: 0; clear: both; visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* HIDES FROM IE-MAC \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* END HIDE FROM IE-MAC */
